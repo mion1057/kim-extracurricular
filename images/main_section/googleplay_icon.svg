@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_레이어_1" data-name="레이어 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16.99 19.3">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #191210;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+    </style>
+    <clipPath id="clippath">
+      <path class="cls-3" d="m0,.54v18.32c0,.39.31.56.69.34l8.01-4.6,4.06-2.33,3.9-2.24c.46-.26.41-.62.03-.83s-3.93-2.26-3.93-2.26l-4.06-2.33L.87.12c-.12-.07-.26-.11-.4-.12-.27,0-.47.18-.47.54"/>
+    </clipPath>
+  </defs>
+  <g class="cls-2">
+    <g id="_그룹_142" data-name="그룹 142">
+      <path id="_패스_758" data-name="패스 758" class="cls-1" d="m0,.26v19.18l8.87-9.59L0,.26Z"/>
+      <path id="_패스_759" data-name="패스 759" class="cls-1" d="m12.23,6.62l-4.02-2.23L-.4-.38v.07l9.95,9.48,2.67-2.55Z"/>
+      <path id="_패스_760" data-name="패스 760" class="cls-1" d="m.22,19.53v.07l7.96-4.6,3.72-2.15-2.47-2.46L.22,19.53Z"/>
+      <path id="_패스_761" data-name="패스 761" class="cls-1" d="m12.76,6.84l-2.73,2.9,2.7,2.93,4.68-2.89-4.65-2.94Z"/>
+    </g>
+  </g>
+</svg>

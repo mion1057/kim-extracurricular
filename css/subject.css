@@ -1,0 +1,242 @@
+body div, body table {
+    position: relative;
+    line-height: 1;
+    border-collapse: separate;
+}
+div, button {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+div.modal {
+    /* display: none; */
+    position: fixed !important;
+    width: 100% !important;
+    height: 100% !important;
+    top: 0;
+    left: 0;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    z-index: 99999;
+}
+div.modal > .wrapper {
+    height: 100% !important;
+}
+
+.wrapper {
+    left: 50% !important;
+    -ms-transform: translateX(-50%) !important;
+    transform: translateX(-50%) !important;
+}
+.PretendardR {
+    font-family: 'Pretendard Variable', sans-serif !important;
+    font-weight: 400 !important;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+div.modal > .wrapper.filter-scroll > .container {
+    height: 100%;
+}
+div.modal > .wrapper > .container {
+    top: 50% !important;
+    left: 50% !important;
+    -ms-transform: translateX(-50%) translateY(-50%) !important;
+    transform: translateX(-50%) translateY(-50%) !important;
+    background-color: white;
+}
+.d-padding-xxl {
+     width: 100%;
+}
+.padding-md {
+    padding: 16px !important;
+}
+.padding-xs {
+    padding: 8px !important;
+}
+.padding-top-xs {
+    padding-top: 8px !important;
+}
+.col-50 {
+    width: 50% !important;
+}
+.scroll-vertical {
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.scroll-vertical::-webkit-scrollbar {
+    width: 9px;
+}
+.scroll-vertical::-webkit-scrollbar-thumb {
+    background-color: #a8a8a8;
+    border-radius: 7px;
+    height: 35px;
+}
+.scroll-vertical::-webkit-scrollbar-track {
+    background-color: #e6e6e6;
+    border-radius: 7px;
+}
+.align-right {
+    text-align: right;
+}
+.text-extra-dark {
+    color: #444444 !important;
+}
+.text {
+    font-size: 16px !important;
+    color: #666666;
+}
+.text-red {
+    color: #fd5353 !important;
+}
+.text-xs {
+    font-size: 12px !important;
+}
+.btn {
+    position: relative;
+    padding: 12px 20px;
+    font-size: 15px;
+    color: #666666;
+    border: 1px solid #eaeaea;
+    background-color: white;
+    outline: 0px;
+    cursor: pointer;
+}
+.padding-horizontal-xxxl {
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+}
+[role=button], button {
+    cursor: pointer;
+}
+[type=button], [type=reset], [type=submit], button {
+    /* -webkit-appearance: button; */
+    background-color: transparent;
+    background-image: none;
+}
+button, select {
+    text-transform: none;
+}
+button, input {
+    display: inline-block;
+    line-height: 1;
+}
+.d-padding-vertical-xxl.m-padding-vertical-sm {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 14px 24px;
+    max-width: 605px;
+    margin-right: 33.89px;
+}
+.m-text-sm {
+    grid-column: 1 / 5;
+}
+.btn-fill.btn-blue-light {
+    background-color: #5ec8d9;
+    color: white;
+}
+.btn-fill {
+    background-color: #ebebeb;
+    color: #a3a3a3;
+    border-color: transparent;
+}
+.btn-blue-light {
+    border-color: #5ec8d9;
+    color: #5ec8d9;
+}
+.border.border-top {
+    border-width: 0px !important;
+    border-top-width: 1px !important;
+    margin-top: 33px;
+}
+.border {
+    border-style: solid;
+    border-color: #b4b4b4;
+    border-width: 1px;
+}
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+label.radio, label.switch, label.checkbox, label.checkbutton, label.select {
+    cursor: pointer;
+    font-size: 16px;
+    color: #a3a3a3;
+}
+label.radio input[type=radio], label.switch input[type=checkbox], label.checkbox input[type=checkbox], label.checkbutton input[type=checkbox] {
+    position: absolute;
+    z-index: 1;
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+input, textarea {
+    font-family: "Noto Sans KR", sans-serif !important;
+}
+label.checkbutton input[type=checkbox] ~ .container {
+    padding: 16px 0px;
+    text-align: center;
+    border-style: solid !important;
+    border-width: 1px;
+    border-color: #e4e4e4;
+    border-radius: 20px;
+}
+label.checkbutton input[type=checkbox] ~ .container, label.select .container {
+    background-color: white;
+}
+label.text input[type=text], label.radio input[type=radio] ~ .container, label.switch input[type=checkbox] ~ .container, label.checkbox input[type=checkbox] ~ .container, label.checkbutton input[type=checkbox] ~ .container, label.select .container {
+    width: 100%;
+}
+label.checkbutton input[type=checkbox] ~ .container .label {
+    font-size: 15px;
+    color: #000000;
+}
+span {
+    display: inline-block;
+}
+.opct_0 {
+    opacity: 0 !important;
+}
+.d-padding-sm {
+    display: inline-block;
+}
+.d-margin-top-md {
+    margin-top: 16px !important;
+}
+.d-padding-top-sm {
+    padding-top: 28px;
+}
+.m-padding-vertical-sm:first-of-type .d-padding-top-sm:first-child {
+    padding-top: 14px;
+}
+.d-col-70 {
+    width: 100% !important;
+}
+.search_tutee div.modal > .wrapper.d-filter-scroll.with_subtitle > .container .scroll-vertical, .search_tutee div.modal > .wrapper.filter-scroll.with_subtitle > .container .scroll-vertical, .search_tutor div.modal > .wrapper.d-filter-scroll.with_subtitle > .container .scroll-vertical, .search_tutor div.modal > .wrapper.filter-scroll.with_subtitle > .container .scroll-vertical {
+    height: calc(100% - 84px - 74px);
+}
+.search_tutee div.modal > .wrapper.d-filter-scroll > .container .scroll-vertical, .search_tutee div.modal > .wrapper.filter-scroll > .container .scroll-vertical, .search_tutor div.modal > .wrapper.d-filter-scroll > .container .scroll-vertical, .search_tutor div.modal > .wrapper.filter-scroll > .container .scroll-vertical, .search_university div.modal > .wrapper.d-filter-scroll > .container .scroll-vertical, .search_university div.modal > .wrapper.filter-scroll > .container .scroll-vertical, .university_info div.modal > .wrapper.d-filter-scroll > .container .scroll-vertical, .university_info div.modal > .wrapper.filter-scroll > .container .scroll-vertical, .admin div#chatLogModal > .wrapper.filter-scroll > .container .scroll-vertical {
+    height: calc(100% - 52px - 74px);
+}
+.m-only {
+    display: none !important;
+}
+.d-text-xxxl {
+    font-size: 24px !important;
+}
+.d-text-lg {
+    font-size: 20px !important;
+    font-weight: bold;
+}
+.d-padding-lg {
+    padding-bottom: 10px;
+}
+@media screen and (max-width: 550px) {
+    .d-padding-vertical-xxl.m-padding-vertical-sm {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .m-text-sm {
+        grid-column: 1 / 4;
+    }
+}

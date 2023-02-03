@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_레이어_2" data-name="레이어 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 593.51 390">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-3 {
+        stroke: #fff8e1;
+      }
+
+      .cls-3, .cls-4 {
+        fill: none;
+      }
+
+      .cls-5 {
+        fill: #fff8e1;
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-7 {
+        opacity: .64;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-4" y="173.56" width="593.51" height="216.44"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-4" y="173.56" width="593.51" height="216.44"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="cls-4" y="173.56" width="593.51" height="216.44"/>
+    </clipPath>
+  </defs>
+  <g id="_레이어_1-2" data-name="레이어 1">
+    <g>
+      <g id="_그룹_653" data-name="그룹 653">
+        <g class="cls-6">
+          <g id="_그룹_586" data-name="그룹 586">
+            <g id="_그룹_585" data-name="그룹 585">
+              <g class="cls-2">
+                <g id="_그룹_584" data-name="그룹 584">
+                  <g id="_그룹_583" data-name="그룹 583" class="cls-7">
+                    <g id="_그룹_582" data-name="그룹 582">
+                      <g class="cls-1">
+                        <g id="_그룹_581" data-name="그룹 581">
+                          <path id="_패스_1484" data-name="패스 1484" class="cls-5" d="m593.51,390v-200.01c-76.72-22.39-180.04-22.76-288.2,4.21C157.02,231.18,40.87,309.24,0,390h593.51Z"/>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="_타원_166" data-name="타원 166" class="cls-7">
+        <circle class="cls-5" cx="549.51" cy="114" r="30"/>
+        <circle class="cls-3" cx="549.51" cy="114" r="29.5"/>
+      </g>
+      <g id="_타원_165" data-name="타원 165" class="cls-7">
+        <circle class="cls-5" cx="522.01" cy="46.5" r="16.5"/>
+        <circle class="cls-3" cx="522.01" cy="46.5" r="16"/>
+      </g>
+      <g id="_타원_167" data-name="타원 167" class="cls-7">
+        <circle class="cls-5" cx="549.51" cy="11" r="11"/>
+        <circle class="cls-3" cx="549.51" cy="11" r="10.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

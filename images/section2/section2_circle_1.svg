@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_레이어_2" data-name="레이어 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 472.42 404">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff8e1;
+        isolation: isolate;
+        opacity: .64;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-3" width="472.42" height="404"/>
+    </clipPath>
+  </defs>
+  <g id="_레이어_1-2" data-name="레이어 1">
+    <g id="_그룹_651" data-name="그룹 651">
+      <g class="cls-2">
+        <g id="_그룹_579" data-name="그룹 579">
+          <path id="_패스_1483" data-name="패스 1483" class="cls-1" d="m0,404h472.42C453.39,177.72,263.7,0,32.5,0,21.57,0,10.73.39,0,1.18v402.82Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

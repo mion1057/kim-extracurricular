@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="16x16" href="images/main/icon_circle.png" />
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/calender.css">
+    <link rel="stylesheet" href="css/tree.css">
+    <title>대한민국 1위 과외 플랫폼 | 김과외</title>
+</head>
+<body>
+    <!-- 페이지 버튼 -->
+    <div class="page_btn">
+        <div class="page_btn_1"></div>
+        <div class="page_btn_2"></div>
+        <div class="page_btn_3"></div>
+        <div class="page_btn_4"></div>
+        <div class="page_btn_5"></div>
+        <div class="page_btn_6"></div>
+        <div class="respons_btn page_btn_7"></div>
+    </div>
+    <!-- 헤더 -->
+    <div class="header_wrap">
+        <header>
+            <img src="images/main_section/kimlogo_black.svg" alt="kimstudy" class="logo_page_1">
+            <div class="contents_wrap">
+                <div class="sec_contents">
+                    <span class="gnb_1">메인</span>
+                    <span class="gnb_2">상담예약</span>
+                    <span class="gnb_3">회원수</span>
+                    <span class="gnb_4">이용요금</span>
+                    <span class="gnb_5">매칭시스템</span>
+                    <span class="gnb_6">멤버십</span>
+                    <span class="respons_btn gnb_7">카테고리</span>
+                </div>
+                <div class="store">
+                    <a href="https://apps.apple.com/kr/app/%EA%B9%80%EA%B3%BC%EC%99%B8-%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD-1%EC%9C%84-%EA%B3%BC%EC%99%B8-%ED%94%8C%EB%9E%AB%ED%8F%BC/id1392809044?l=en" target="_blank">
+                        <img id="appstore" src="images/main_section/appstore.svg" alt="appstore" />
+                        <img id="appstore_icon" src="images/main_section/appstore_icon.svg" alt="appstore" />
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.place5.gawekim&hl=ko&gl=US" target="_blank">
+                        <img id="google" src="images/main_section/googleplay.svg" alt="googleplay" />
+                        <img id="google_icon" src="images/main_section/googleplay_icon.svg" alt="googleplay" />
+                    </a>
+                    <div id="toggle">
+                        <div>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="blind">
+            <p class="gnb_1">메인</p>
+            <p class="gnb_2">상담예약</p>
+            <p class="gnb_3">회원수</p>
+            <p class="gnb_4">이용요금</p>
+            <p class="gnb_5">매칭시스템</p>
+            <p class="gnb_6">멤버십</p>
+            <p class="respons_btn gnb_7">카테고리</p>
+        </div>
+    </div>
+    <!-- 메인 섹션 -->
+    <div class="section main_section">
+        <video muted autoplay loop>
+            <source src="video/library.mp4" type="video/mp4">
+        </video>
+        <div class="main_contents">
+            <div class="main_section_text">
+                <div class="main_section_text1">좋은 선생님을 원하는 곳에서</div>
+                <div class="main_section_text2">대한민국 <span>1</span>위</div>
+                <div class="main_section_text3">과외플랫폼<span> 김과외</span></div>
+                <a href="https://kimstudy.com/" class="homepage">
+                    <span>홈페이지 바로가기</span>
+                    <img src='images/main_section/arrow.svg' alt='arrow'/>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- 섹션2 -->
+    <div class="section section2">
+        <img src="images/section2/section2_women.svg" class="sec2_women">
+        <img src="images/section2/section2_circle_1.svg" class="sec2_circle1">
+        <img src="images/section2/section2_circle_2.svg" class="sec2_circle2">
+        <div class="standard_margin">
+            <div class="contentbox sec2_contentbox">
+                <div class="sub_title sec2_text">
+                    <div class="sub_title_child">
+                        <img src="images/main/kim_basic.svg" alt="김과외">
+                        와 함께할 선생님을 기다립니다.
+                    </div>
+                    <p>혹시, 김과외에 대해서 더 자세히 알고 싶거나 강사등록을 망설이신다면?</p>
+                    <p>상담을 통해 다양한 정보 및 질의응답을 받으실 수 있습니다.</p>
+                    <p>(콘텐츠/혜택 및 특정 맞춤 서비스, 요금결제, 민원처리 등)</p>
+                </div>
+                <div class="sec2">
+                    <form method="post" action="php/apply.php">
+                        <div class="notify_wrap">
+                            <input class="sec2_input" name="name" type="text" placeholder="이름" maxlength="20">
+                            <input class="sec2_input" name="tel" type="text" placeholder="전화번호" oninput="autoHyphen(this)" maxlength="13">
+                            <div class="sec2_calender">
+                                <input class="sec2_input date" name="date" type="text" placeholder="희망날짜 및 시간" onchange="inputValueIn()">
+                            </div>
+                            <div class="sec2_checkbox">
+                                <input type="checkbox" id="sec2_checkbox">
+                                <label for="sec2_checkbox">개인정보수집동의</label>
+                            </div>
+                            <div>
+                                <button class="sec2_button">상담예약</button>
+                                <button type="button" class="sec2_button"><a href="sub.html">예약조회/변경</a></button>
+                            </div>
+                        </div>
+                    </form>
+                    <img class="mouse_outside" src="./images/section2/mouse_outside.svg" alt="mouse_outside" />
+                    <img class="mouse_inside" src="./images/section2/mouse_inside.svg" alt="mouse_inside" />
+                </div>
+            </div>
+        </div>
+    </div>
+   <!-- 섹션3 -->
+   <div class="section section3">
+    <div class="standard_margin">
+        <div class="contentbox sec3_contentbox">
+            <div class="sub_title sec3_text">
+                <p>좋은 스승과 열정적인 제자의 만남,</p>
+                <div class="sub_title_child">
+                    <img src="images/main/kim_basic.svg" alt="김과외">
+                    가 이뤄나가고 있습니다.
+                </div>
+            </div>
+            <div class="sec3">
+                <div class="cir_graph circle_1">
+                    <div class="border_span"></div>
+                    <div class="center_span"><span>고객만족도</span><span>97.1%</span></div>
+                </div>
+                <div class="cir_graph circle_2">
+                    <div class="border_span"></div>
+                    <div class="center_span"><span>학생/학부모 회원</span><span>1,129,125명</span></div>
+                </div>
+                <div class="cir_graph circle_3">
+                    <div class="border_span"></div>
+                    <div class="center_span"><span>선생님 회원</span><span>408,863명</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="forest">
+        <img id="leaf" src="./images/section3/leaf.svg" alt="">
+        <img id="left_tree" src="./images/section3/left_tree.svg" alt="">
+        <img id="left_grass" src="./images/section3/letf_grass.svg" alt="">
+        <img id="right_grass" src="./images/section3/right_grass.svg" alt="">
+        <img id="right_tree" src="./images/section3/right_tree2.svg" alt="">
+        <img id="snow1" src="./images/section3/snow1.svg" alt="">
+        <img id="snow2" src="./images/section3/snow2.svg" alt="">
+        <img id="snow3" src="./images/section3/snow3.svg" alt="">
+        <img id="snow4" src="./images/section3/snow4.svg" alt="">
+        <img id="snow5" src="./images/section3/snow5.svg" alt="">
+    </div>
+</div>
+    <!-- 섹션4, 5 -->
+    <div id="section-low">
+        <!-- 섹션4 -->
+        <div class="section section4">
+            <div class="standard_margin">
+                <div class="contentbox sec4_contentbox">
+                    <div class="sub_title">
+                        <div class="sub_title_child">
+                            <img src="images/main/kim_basic.svg" alt="김과외">
+                            는 가입비가 없습니다.
+                        </div>
+                        <p>과외가 성사될 때마다 각 과외의</p>
+                        <p>첫 달 과외비의 25%를 이용요금으로 받습니다.</p>
+                    </div>
+                    <div class="sec4">
+                        <img src="images/section4/scale.svg" alt="scale" class="scale" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 섹션5 -->
+        <div class="section section5">
+            <div class="standard_margin">
+                <div class="contentbox sec5_contentbox">
+                    <div class="sub_title">
+                        <div class="sub_title_child">
+                            <img src="images/main/kim_basic.svg" alt="김과외" class="section-logo">
+                            는 매칭이 빠릅니다.
+                        </div>
+                        <p>나에게 딱 맞는 학생/선생님을 1분이면 찾을 수 있습니다!</p>
+                    </div>
+                    <div class="sec5">
+                        <div class="match match1">
+                            <img id="good" src="images/section5/1_good.svg" alt="따봉">
+                            <p class="main_text">추천선생님</p>
+                            <p class="sub_text">
+                                후기 및 문의 정도에 따라 추천 키워드가 추가되어
+                                더 많은 학생들에게 노출시킬 수 있습니다.
+                            </p>
+                        </div>
+                        <div class="match match2">
+                            <img id="glass" src="images/section5/2_glasses.svg" alt="돋보기">
+                            <p class="main_text">원하는 조건 검색</p>
+                            <p class="sub_text">만나서 과외 / 온라인·화상회의 과목 / 
+                                지역 / 대학 / 학과 / 학번 / 연령대 / 출신고 / 성별 / 수업료 / 합격전형 등
+                                원하는 조건으로 검색 후 매칭가능합니다.
+                            </p>
+                        </div>
+                        <div class="match match3">
+                            <p class="main_text">과외후기 열람</p>
+                            <p class="sub_text">
+                                실 사용자들의 진실된 후기를 열람가능합니다.
+                                학생은 본인에게 맞는 선생님 찾기가 더욱 수월해집니다.
+                            </p>
+                            <img id="star" src="images/section5/3_star.svg" alt="별점">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 섹션6 -->
+    <div class="section section6">
+        <div class="standard_margin">
+            <div class="contentbox sec6_contentbox">
+                <div class="sub_title">
+                    <div class="sub_title_child">
+                        <img src="images/main/kim_basic.svg" alt="김과외">
+                        는 유용한 멤버십 혜택을 제공합니다.
+                    </div>
+                    <p>선생님을 위한 여러가지 혜택을 만나보세요!</p>
+                </div>
+                <div class="sec6">
+                    <div class="wallet_wrap">
+                        <div class="wallet">
+                            <div class="wallet_hidden">
+                                <div class="card_cover card_cover1"></div>
+                                <div class="card_cover card_cover2"></div>
+                                <div class="card_cover card_cover3"></div>
+                            </div>
+                        </div>
+                        <p>카드를 눌러보세요!</p>
+                    </div>
+                    <div id="card_1" class="card_wrap card_in">
+                        <img src="images/section6/card1.svg" class="card">
+                        <div class="card_back card_back1"></div>
+                    </div>
+                    <div id="card_2" class="card_wrap card_in">
+                        <img src="images/section6/card2.svg" class="card">
+                        <div class="card_back card_back2"></div>
+                    </div>
+                    <div id="card_3" class="card_wrap card_in">
+                        <img src="images/section6/card3.svg" class="card">
+                        <div class="card_back card_back3"></div>
+                    </div>
+                    <div class="card_frame_wrap">
+                        <div class="card_frame">CARD</div>
+                        <p>마우스를 올려보세요!</p>
+                    </div>
+                    <div class="click_decoy">
+                        카드를 눌러보세요!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 섹션7 -->
+    <div class="section section7">
+        <div class="standard_margin">
+            <div class="contentbox sec7_contentbox">
+                <div class="sub_title">
+                    <div class="sub_title_child">
+                        <img src="images/main/kim_basic.svg" alt="김과외">
+                        는 다양한 선택지를 가지고 있습니다.
+                    </div>
+                    <p>본인에게 맞는 과목을 선택하세요!</p>
+                </div>
+                <div class="sec7">
+                    <div class="Graph_wrap">
+                        <div class="graph stack4">
+                            <div><span class="value">51</span></div>
+                            <span class="cp">C사</span>
+                        </div>
+                        <div class="graph stack3">
+                            <div><span class="value">9</span></div>
+                            <span class="cp">B사</span>
+                        </div>
+                        <div class="graph stack2">
+                            <div><span class="value">271</span></div>
+                            <span class="cp">A사</span>
+                        </div>
+                        <div class="graph stack1">
+                            <div><span class="value">395</span></div>
+                            <span class="cp"><img src="images/section7/kimgy_logo.svg" alt=""></span>
+                        </div>
+                        <div class="bottom_line"></div>
+                    </div>
+                    <div class="category">
+                        <div class="category_text">과목 카테고리<img src="images/section7/under.svg"></div>
+                        <img src="images/section7/clip.svg" alt="clip" class="clip">
+                        <iframe src="subject.html" frameborder="6" class="subject"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 알림톡 -->
+    <form method="post" action="php/apply.php">
+        <div class="notify none">
+            <img src="images/notify/talk_word_pc.svg" class="pc_talk_box">
+            <img src="images/notify/talk_word_tb.svg" alt="" class="tb_talk_box">
+            <div class="mobile_text">
+                원하는 <span>시간</span>과 날짜에 <span>상담</span>을 예약해보세요!
+            </div>
+            <div class="notify_contents">
+                <div class="notify_input_wrap">
+                    <div class="input_wrap">
+                        <input class="notify_input" name="name" type="text" placeholder="이름" maxlength="20">
+                        <input class="notify_input" name="tel" type="text" placeholder="전화번호" oninput="autoHyphen(this)" maxlength="13">
+                        <div class="calender_img">
+                            <input class="notify_input date" name="date" type="text" placeholder="희망 날짜 및 시간" onchange="inputValueIn()">
+                        </div>
+                    </div>
+                    <div class="submit">
+                        <div class="checkbox">
+                            <input type="checkbox" id="checkbox">
+                            <label for="checkbox"><div>개인정보 수집동의</div></label>
+                        </div>
+                        <button>상담예약</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <!-- 달력 추가 -->
+    <div class="date_wrap none">
+        <div class="date_wrap_close"><img src="./images/calender/cancel.svg" alt="calender_close"></div>
+        <div>
+            <div class="date_select_wrap">
+                <div class="calender_wrap">
+                    <div class="calender_header">
+                        <img class="month_btn pre" src="./images/calender/btn_pre.svg" alt="pre"/>
+                        <div>
+                            <p class="calender_year"></p>
+                            <p class="calender_month"></p>
+                        </div>
+                        <img class="month_btn next" src="./images/calender/btn_next.svg" alt="next"/>
+                    </div>
+                    <div class="calender_main">
+                    </div>
+                </div>
+            </div>
+            <div class="time_select_wrap">
+                <div>
+                    <div class="time_list not">10:00 - 10:50</div>
+                    <div class="time_list not">11:00 - 11:50</div>
+                    <div class="time_list not">13:00 - 13:50</div>
+                    <div class="time_list not">14:00 - 14:50</div>
+                    <div class="time_list not">15:00 - 15:50</div>
+                    <div class="time_list not">16:00 - 16:50</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.6.1.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/wallet.js"></script>
+    <script src="js/toggle.js"></script>
+    <script src="js/calender.js"></script>
+    <script src="js/pagescroll.js"></script>
+    <script src="js/stick_graph.js"></script>
+    <script src="js/autoHyphen.js"></script>
+    <script src="js/circle_graph.js"></script>
+</body>
+</html>

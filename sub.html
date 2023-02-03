@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="16x16" href="images/main/icon_circle.png" />
+    <link rel="stylesheet" href="css/sub.css">
+    <link rel="stylesheet" href="css/calender.css">
+    
+    <title>대한민국 1위 과외 플랫폼 | 김과외</title>
+</head>
+<body>
+    <div class="section section2">
+        <div class="sub_logo_box">
+            <a href="index.html"><img src="./images/main_section/kimlogo_black.svg" /></a>
+        </div>
+        <img src="images/section2/section2_women.svg" class="sec2_women">
+        <img src="images/section2/section2_circle_1.svg" class="sec2_circle1">
+        <img src="images/section2/section2_circle_2.svg" class="sec2_circle2">
+        <div class="standard_margin">
+            <div class="contentbox sec2_contentbox">
+                <div class="sub_title sec2_text">
+                    <div>
+                        <span>예약조회/변경</span>
+                    </div>
+                </div>
+                <div class="sec2">
+                    <form method="post" action="./php/modify.php">
+                        <div class="notify_wrap">
+                            <input class="sec2_input" type="text" placeholder="이름" maxlength="20">
+                            <input class="sec2_input" type="text" placeholder="전화번호" oninput="autoHyphen(this)" maxlength="13">
+                            <div class="sec2_calender">
+                                <input class="sec2_input date" type="text" placeholder="희망날짜 및 시간" onchange="inputValueIn()">
+                            </div>
+                            <button class="sec2_button">예약변경하기</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 달력 추가 -->
+    <div class="date_wrap none">
+        <div class="date_wrap_close"><img src="./images/calender/cancel.svg" alt="calender_close"></div>
+        <div>
+            <div class="date_select_wrap">
+                <div class="calender_wrap">
+                    <div class="calender_header">
+                        <img class="month_btn pre" src="./images/calender/btn_pre.svg" alt="pre"/>
+                        <div>
+                            <p class="calender_year"></p>
+                            <p class="calender_month"></p>
+                        </div>
+                        <img class="month_btn next" src="./images/calender/btn_next.svg" alt="next"/>
+                    </div>
+                    <div class="calender_main">
+                    </div>
+                </div>
+            </div>
+            <div class="time_select_wrap">
+                <div>
+                    <div class="time_list not">10:00 - 10:50</div>
+                    <div class="time_list not">11:00 - 11:50</div>
+                    <div class="time_list not">13:00 - 13:50</div>
+                    <div class="time_list not">14:00 - 14:50</div>
+                    <div class="time_list not">15:00 - 15:50</div>
+                    <div class="time_list not">16:00 - 16:50</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/calender.js"></script>
+    <script src="js/autoHyphen.js"></script>
+</body>
+</html>

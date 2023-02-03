@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_레이어_1" data-name="레이어 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 12">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="_그룹_240" data-name="그룹 240">
+    <line id="_선_62" data-name="선 62" class="cls-1" x1="1" y1="11" x2="29" y2="11"/>
+    <line id="_선_63" data-name="선 63" class="cls-1" x1="19" y1="1" x2="29" y2="11"/>
+  </g>
+</svg>
